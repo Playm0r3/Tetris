@@ -188,6 +188,10 @@ xcopy /y /d  "$(SolutionDir)Assets\*" "$(OutDir)Assets\"</Command>
     <ClCompile Include="Code\include\grid.h" />
     <ClCompile Include="Code\src\grid.cpp" />
     <ClCompile Include="Code\src\main.cpp" />
+    <ClCompile Include="Code\src\tetriminos.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\include\tetriminos.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

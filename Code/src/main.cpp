@@ -12,7 +12,6 @@ int main()
     while (!WindowShouldClose())
     {
         // Update
-        
         BeginDrawing();
         ClearBackground(BLACK);
 

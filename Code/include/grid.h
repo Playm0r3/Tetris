@@ -24,6 +24,7 @@ public:
 	~Block() = default;
 
 	void DrawBlock() const;
+	void ModifyColor(Color color);
 
 
 };
@@ -41,6 +42,7 @@ public:
 	~Grid();
 
 	void DrawGrid() const;
+	Block& GetBlock(int _x, int _y);
 
 };
 
